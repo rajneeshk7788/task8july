@@ -1,0 +1,223 @@
+.App {
+  
+  text-align: center;
+  height: 350px;
+  width: 100%;
+  margin-bottom: 40px;
+
+}
+.app1{
+ 
+  padding: 20px;
+}
+.nav{
+  background-color: rgb(209, 80, 202);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin-bottom: 30px;
+
+}
+.img-1{
+  display: flex;
+  width: 200px;
+  /* border: 1px solid red; */
+  margin-left: 15%;
+  color: white;
+  margin-top: 30px;
+}
+.img-2{
+  width: 40px;
+  height: 30px;
+  margin-right: 5px;
+}
+.img-2 img{
+  width: 100%;
+  height: 100%;
+}
+.img-1{
+  width: 200px;
+  height: 30px;
+  /* border: 1px solid red; */
+}
+.img-1 > div p{
+  font-weight: bold;
+  margin: 0px;
+}
+.container{
+  margin: 40px;
+  padding-bottom: 30px;
+}
+.main{
+  background-color: rgb(13, 231, 251);
+  padding: 1px;
+  width: 90%;
+  margin: auto;
+ 
+}
+.main-1{
+  display: flex;
+  height: 620px;
+  margin: 4% 2%;
+}
+.main-1 > div:nth-child(2){
+  width: 65%;
+  /* border: 1px solid red; */
+}
+.main-1 > div:nth-child(1){
+  width: 35%;
+  /* border: 1px solid red; */
+  background-color: rgb(43, 43, 224);
+}
+.form{
+  width: 50%;
+  text-align: left;
+  /* padding: 10px; */
+  padding-left: 30px;
+}
+.main-3{
+  color: white;
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
+.main-4{
+  width: 100%;
+  padding-top: 40px;
+  /* border: 1px solid red; */
+}
+.main-4 > img{
+  width: 100%;
+  height: 100%;
+}
+.p{
+  font-weight: 700;
+  font-size: large;
+}
+.p1{
+  font-weight: bold;
+}
+.form-item-1{
+  border: 1px;
+}
+.form-item-2{
+  /* text-align: left; */
+  font-weight: bold;
+  margin-top: 10px  ;
+  /* border: 1px solid red;   */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-form{
+  background-color: white;
+  padding: 5% ;
+}
+
+.span-1{
+  font-weight: initial;
+}
+.input-box{
+  width: calc(100%/2 - 20px);
+}
+.input{
+  height: 40px;
+  width: 95%;
+  border-radius: 3%;
+  margin-bottom: 10px;
+}
+.btn{
+  margin: 10px;
+  width: 25%;
+}
+button{
+  background-color: blue;
+  color: white  ;
+  cursor: pointer;
+  border-radius: 4%;
+  padding: 8px 5px;  
+}
+
+
+/* login */
+
+.container1{
+  padding: 40px;
+  width: 80%;
+  margin: auto;
+}
+.main1{
+  background-color: rgb(38, 38, 243);
+  padding: 40px 60px;
+}
+.main2 {
+  background-color: white;
+  margin: auto;  
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+}
+.login1{
+ padding-left: 70px;
+padding-right: 70px;
+}
+.login2{
+  text-align: left;
+  display: flex; 
+}
+#img{
+  text-align: left;
+}
+.login-3{
+  padding-left: 5px;  
+  text-align: left;
+  margin-top: 30px;
+}
+.head{
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.head1{
+  margin: 10px;
+}
+.img-5{
+  display: flex;
+  width: 200px;
+  height: 30px;
+  color: white;
+  margin-top: 30px;  
+}
+.img-5 > div p{
+  font-weight: bold;
+  margin: 0px;
+}
+.img-6{
+  width: 40px;
+  height: 30px;
+  /* margin-right: 5px; */
+}
+.img-6 img{
+  width: 100%;
+  height: 100%;
+}
+.img32{
+  height: 100%;
+}
+.check{
+  display: flex ;
+  justify-content: space-between;
+}
+
+.btn1 button{
+  margin: 10px;
+  width: 96%;
+}
+.btn2{
+  width: 95%;
+}
+.details1{
+  /* font-size: large; */
+  font-weight: bold;
+}
